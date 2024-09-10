@@ -6,45 +6,54 @@
   <title>CSS Mem Slider</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="./assets/pngwing.com.png" type="image/x-icon">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
+<div class="container background">
 
-  <div class="slides">
+  <div class="meme-slider">
+
+    <div class="images">
     
-    <div class="slide" id="slide1-image">
-      <img src="./assets/misterbin1.jpg" alt="first image">
-     </div>
+      <img class="about-image" src="./assets/misterbin1.jpg" alt="image 1">
+      <img class="about-image" src="./assets/misterbin2.jpg" alt="image 2">
+      <img class="about-image" src="./assets/keep-going-almost.jpg" alt="image 3">
+      <img class="about-image" src="./assets/dory.jpg" alt="image 4">
+    </div>
+    
+    
+    <div class="row text-navigation" >
+      <div>
+        <h3>I'm best of the best!</h3>
+      </div>
+  
+      <div class="slider">
+        <input class="slider-settings" type="radio" name="slide" id="slide1" checked>
+        <input class="slider-settings" type="radio" name="slide" id="slide2">
+        <input class="slider-settings" type="radio" name="slide" id="slide3">
+        <input class="slider-settings" type="radio" name="slide" id="slide4">
+      </div>
 
-     <div class="slide" id="slide1-image">
-      <img src="./assets/misterbin2.jpg" alt="second image">
-     </div>
+      <div class="navigation">
+        <label for="slide1" class="circle-button"></label>
+        <label for="slide2" class="circle-button"></label>
+        <label for="slide3" class="circle-button"></label>
+        <label for="slide4" class="circle-button"></label>
+      </div> 
 
-     <div class="slide" id="slide1-image">
-      <img src="./assets/minions.jpg" alt="third image">
-     </div>
-
-     <div class="slide" id="slide1-image">
-      <img src="./assets/dory.jpg" alt="forth image">
-     </div>
-
-  </div>
-
-
-  <div>
-
-    <div class="slider">
-      <input type="radio" name="slide" id="slide1" checked>
-      <input type="radio" name="slide" id="slide2">
-      <input type="radio" name="slide" id="slide3">
-      <input type="radio" name="slide" id="slide4">
     </div>
   
-    <div>
-      <h3>I'm best of the best!</h3>
-    </div>
-    
+ 
   </div>
+    
+  
+
+</div>
+  
 
 
 </body>
