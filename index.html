@@ -13,48 +13,45 @@
 </head>
 <body>
 
-<div class="container background">
-
-  <div class="meme-slider">
-
-    <div class="images">
+  <div class="container">
     
-      <img class="about-image" src="./assets/misterbin1.jpg" alt="image 1">
-      <img class="about-image" src="./assets/misterbin2.jpg" alt="image 2">
-      <img class="about-image" src="./assets/keep-going-almost.jpg" alt="image 3">
-      <img class="about-image" src="./assets/dory.jpg" alt="image 4">
-    </div>
-    
-    
-    <div class="row text-navigation" >
-      <div>
-        <h3>I'm best of the best!</h3>
-      </div>
+    <div class="carousel">
+      <div class="carousel-inner">
+          
+        <div class="placeholder"></div>
   
-      <div class="slider">
-        <input class="slider-settings" type="radio" name="slide" id="slide1" checked>
-        <input class="slider-settings" type="radio" name="slide" id="slide2">
-        <input class="slider-settings" type="radio" name="slide" id="slide3">
-        <input class="slider-settings" type="radio" name="slide" id="slide4">
+        
+        <input type="radio" name="slides-selectors" id="slide-1-button" checked>
+        <img src="./assets/misterbin1.jpg" alt="...">
+
+        <input type="radio" name="slides-selectors" id="slide-2-button">
+        <img src="./assets/misterbin2.jpg" alt="...">
+
+        <input type="radio" name="slides-selectors" id="slide-3-button">
+        <img src="./assets/keep-going-almost.jpg" alt="...">
+
+        <input type="radio" name="slides-selectors" id="slide-4-button">
+        <img src="./assets/dory.jpg" alt="...">
+
+        <div class="carousel-controls">
+          <div class="carousel-selectors">
+            <label for="slide-1-button"></label>
+            <label for="slide-2-button"></label>
+            <label for="slide-3-button"></label>
+            <label for="slide-4-button"></label>
+          </div>
+
+          <div class="carousel-headers">
+            <h3 for="slide-1-button">I'm best of the best</h3>
+            <h3 for="slide-2-button">I'm best of the best of the best</h3>
+            <h3 for="slide-3-button">Keep goin I belive in you</h3>
+            <h3 for="slide-4-button">Don't stop</h3>
+          </div>
+        </div>
       </div>
-
-      <div class="navigation">
-        <label for="slide1" class="circle-button"></label>
-        <label for="slide2" class="circle-button"></label>
-        <label for="slide3" class="circle-button"></label>
-        <label for="slide4" class="circle-button"></label>
-      </div> 
-
     </div>
   
- 
   </div>
-    
-  
-
-</div>
-  
-
 
 </body>
 </html>
